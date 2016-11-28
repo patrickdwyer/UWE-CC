@@ -1,7 +1,7 @@
 ### Misc ###
 uploads/
-public_html/css/main.css
-public_html/js/main.js
+#public_html/css/main.css
+#public_html/js/main.js
 
 
 ### CraftCMS ###

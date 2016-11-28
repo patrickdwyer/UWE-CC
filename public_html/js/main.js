@@ -1,0 +1,1 @@
+jQuery(function(e){e(".match-height").matchHeight(),e("#owl-header").owlCarousel({navigation:!0,slideSpeed:300,paginationSpeed:400,singleItem:!0,pagination:!0,rewindSpeed:500,navigation:!1})});
