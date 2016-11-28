@@ -1,0 +1,93 @@
+/* -----------------------------------------
+	Grid
+----------------------------------------- */
+
+$container-sm:		750px;
+$container-md:		970px;
+$container-lg:		1170px;
+
+$screen-xs:				480px;
+$screen-sm:				768px;
+$screen-md:				992px;
+$screen-lg:				1200px;
+$screen-xs-max:		($screen-sm - 1);
+$screen-sm-max:		($screen-md - 1);
+$screen-md-max:		($screen-lg - 1);
+
+/* -----------------------------------------
+	Brand Colors
+----------------------------------------- */
+
+$brandBlueLight:		#1c99ad;
+$brandRedLight:			#ee4637;
+$brandGrayDark:			#3b3b3b;
+$brandGrayLight:		#d1d1d1;
+$brandWhite:				#efefef;
+
+$brandBlueDark:			#177f90;
+$brandRedDark:			#cf2112;
+$brandGreenLight:		#3f9c6b;
+$brandGreenDark:		#35845a;
+
+//$brandGrayLightest:	lighten($brandGray, 65%);
+//$brandGrayLight:		lighten($brandGray, 25%);
+//$brandGrayDark:			rgb(48,51,52); /*#303334*/
+
+/* -----------------------------------------
+	Base Colors
+----------------------------------------- */
+
+$theme-primary:		$brandBlueLight;
+$theme-secondary:	$brandRedLight;
+$body-color:			$brandGrayDark;
+$heading-color:		$brandGrayDark;
+
+/* -----------------------------------------
+	Font Families
+----------------------------------------- */
+
+$body-font:				'omnes-pro', Arial, Helvetica, sans-serif;
+$heading-font:		'brandon-grotesque', 'Arial Black', Helvetica, sans-serif;
+$secondary-font:	'omnes-pro', Arial, Helvetica, sans-serif;
+
+/* -----------------------------------------
+	Font Weights
+----------------------------------------- */
+
+$light:			300;
+$regular:		400;
+$medium:		500;
+$semibold:	600;
+$bold:			700;
+
+/* -----------------------------------------
+	Font Sizes
+----------------------------------------- */
+
+$font-size-base:	16px;
+
+$font-size-h1:		3.375em; /*54px*/
+$font-size-h2:		2.25em; /*36px*/
+$font-size-h3:		1.5em; /*24px*/
+$font-size-h4:		$font-size-base; /*16px*/
+$font-size-h5:		14px;
+$font-size-h6:		12px;
+
+/* -----------------------------------------
+	Bootstrap - Colors
+----------------------------------------- */
+
+$gray-base:			#000 !default;
+$gray-darker:		lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:			lighten($gray-base, 20%) !default;   // #333
+$gray:					lighten($gray-base, 33.5%) !default; // #555
+$gray-light:		lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:	lighten($gray-base, 93.5%) !default; // #eee
+
+/* -----------------------------------------
+	Bootstrap - Buttons
+----------------------------------------- */
+
+$btn-primary-color:		#fff !default;
+$btn-primary-bg:			$theme-primary !default;
+$btn-primary-border:	darken($btn-primary-bg, 5%) !default;

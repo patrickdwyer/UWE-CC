@@ -1,0 +1,229 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: $brandWhite;
+  font-family: $body-font;
+  font-weight: $regular;
+  font-size: $font-size-base;
+  color: $body-color;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: $semibold;
+  color: $theme-primary;
+  @include transition-all;
+
+  &:hover,
+  &:focus {
+    color: $theme-primary;
+  }
+
+  &.secondary {
+    color: $theme-secondary;
+
+    &:hover,
+    &:focus {
+      color: $theme-secondary;
+    }
+  }
+
+  .standalone {
+    font-size: 17px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
+  /*color: $heading-color;
+  font-weight: 400;
+  margin: 30px 0 20px 0;*/
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+hr {
+  border-color: $brandGrayLight;
+}
+
+section {
+  padding: 100px 0px;
+
+  &.section-home {
+    padding: 40px 0px;
+  }
+}
+
+aside {
+  padding: 50px 0;
+}
+
+blockquote {
+  position: relative;
+  margin-bottom: 24px;
+  padding: 16px 24px 12px 24px;
+  color: $brandGrayDark;
+  border: none;
+
+  p {
+    font-size: 22px;
+    font-weight: $semibold;
+    line-height: initial;
+  }
+
+  cite {
+    display: block;
+    color: $theme-primary;
+    font-style: normal;
+  }
+}
+
+/* -----------------------------------------
+  Typography
+----------------------------------------- */
+
+.page-title {
+  font-size: 40px;
+  color: $brandGrayDark;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  font-size: 32px;
+  color: $brandBlueLight;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+h2 {
+  font-size: 22px;
+  color: $brandGrayDark;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+h3 {
+  font-size: 28px;
+  color: $brandGrayDark;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* -----------------------------------------
+  Misc
+----------------------------------------- */
+
+.bg-primary {
+  background-color: $theme-primary;
+}
+
+.bg-secondary {
+  background-color: $theme-secondary;
+}
+
+.bg-dark {
+  background-color: $gray-darker;
+  color: #fff;
+}
+
+.text-primary {
+  color: $theme-primary;
+}
+
+.text-faded {
+  color: rgba(#fff, 0.7);
+}
+
+.btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-family: $body-font;
+  font-weight: $semibold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  @include button-variant($gray-darker, #fff, #fff);
+}
+
+.btn-primary {
+  @include button-variant(#fff, $theme-primary, $theme-primary);
+}
+
+.btn-success {
+  @include button-variant(#fff, $brandGreenLight, $brandGreenLight);
+}
+
+.btn-danger {
+  @include button-variant(#fff, $brandRedLight, $brandRedLight);
+}
+
+.btn-xl {
+  padding: 15px 30px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* -----------------------------------------
+  Extras
+----------------------------------------- */
+
+// Highlight Color Customization
+::-moz-selection {
+    color: #fff;
+    text-shadow: none;
+    background: $theme-primary;
+}
+
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: $theme-primary;
+}
+
+img::selection {
+    color: #fff;
+    background: transparent;
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: transparent;
+}
+
+body {
+    webkit-tap-highlight-color: $theme-primary;
+}
