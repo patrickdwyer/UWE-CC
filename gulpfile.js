@@ -20,7 +20,7 @@ gulp.task('js', function(){
 gulp.task('sass', function(){
 	return gulp.src('src/sass/'+TEMPLATE+'/main.scss')
 		.pipe(plumber())
-		.pipe(sass({outputStyle:'compressed'})
+		.pipe(sass({outputStyle:'nested'})
 			.on('error', notify.onError("Error: <%= error.message %>"))
 		)
 		.pipe(plumber.stop())
