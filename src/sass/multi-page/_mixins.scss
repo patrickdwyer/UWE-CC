@@ -25,6 +25,7 @@
 
 @mixin button-variant($color, $background, $border) {
 	color: $color;
+	letter-spacing: 0.15em;
 	background-color: $background;
 	border-color: $border;
 	@include transition-all;
