@@ -155,7 +155,7 @@
 					</div>
 				</section>
 
-				<section class="find-room divider">
+				<section class="find-room">
 					<div class="row">
 						<div class="col-sm-6 col-md-4 result-item match-height">
 							<img src="https://unsplash.it/600/450/?random" alt="" class="img-responsive">
@@ -327,7 +327,7 @@
 					<div class="sidebar-nav">
 						<h2>Events & Meetings</h2>
 						<ul class="nav">
-							<li><a href="#" class="active">Event Planning Process</a></li>
+							<li><a href="#">Event Planning Process</a></li>
 							<li class="active"><a href="#">Meeting Spaces</a></li>
 							<li><a href="#">Meeting Room Rates</a></li>
 							<li><a href="#">Eligibility & Policies</a></li>
@@ -343,7 +343,7 @@
 
 				<div class="sidebar-widget">
 					<div class="request-meeting-room">
-						<img src="/img/icon-calendar.png" alt="calendar" class="icon">
+						<img src="/img/icon-calendar.svg" alt="calendar" class="icon">
 						<h4>Request a Meeting Room</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel massa faucibus.</p>
 						<a href="#" class="btn btn-success btn-block">Request</a>
@@ -363,7 +363,7 @@
 					<div class="plain-cta">
 						<img src="/img/icon-question.svg" alt="question" class="icon">
 						<h4 class="text-center">View some of our Most Frequently asked questions</h4>
-						<a href="#" class="text-center center-block">View FAQs ›</a>
+						<a href="#" class="text-center center-block standalone">View FAQs ›</a>
 					</div>
 				</div>
 
@@ -371,7 +371,7 @@
 					<div class="plain-cta">
 						<h4 class="text-center">For Event Planners</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel massa faucibus, blandit felis at, pharetra libero. Nunc tempor ullamcorper pretium.</p>
-						<a href="#" class="text-center center-block">Media Center ›</a>
+						<a href="#" class="text-center center-block standalone">Media Center ›</a>
 					</div>
 				</div>
 

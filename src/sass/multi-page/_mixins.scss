@@ -24,10 +24,11 @@
 }
 
 @mixin button-variant($color, $background, $border) {
-	color: $color;
+	color: $color !important;
 	letter-spacing: 0.15em;
 	background-color: $background;
 	border-color: $border;
+	white-space: normal;
 	@include transition-all;
 
 	&:hover,

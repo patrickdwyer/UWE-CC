@@ -127,7 +127,7 @@
 					<div class="sidebar-nav">
 						<h2>Events & Meetings</h2>
 						<ul class="nav">
-							<li class="active"><a href="#" class="active">Event Planning Process</a></li>
+							<li class="active"><a href="#">Event Planning Process</a></li>
 							<li><a href="#">Meeting Spaces</a></li>
 							<li><a href="#">Meeting Room Rates</a></li>
 							<li><a href="#">Eligibility & Policies</a></li>
@@ -143,7 +143,7 @@
 
 				<div class="sidebar-widget">
 					<div class="request-meeting-room">
-						<img src="/img/icon-calendar.png" alt="calendar" class="icon">
+						<img src="/img/icon-calendar.svg" alt="calendar" class="icon">
 						<h4>Request a Meeting Room</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel massa faucibus.</p>
 						<a href="#" class="btn btn-success btn-block">Request</a>
@@ -163,7 +163,7 @@
 					<div class="plain-cta">
 						<h4 class="text-center">For Event Planners</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel massa faucibus, blandit felis at, pharetra libero. Nunc tempor ullamcorper pretium.</p>
-						<a href="#" class="text-center center-block">Media Center ›</a>
+						<a href="#" class="text-center center-block standalone">Media Center ›</a>
 					</div>
 				</div>
 

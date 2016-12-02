@@ -61,49 +61,49 @@
 
 								<div class="row">
 									<div class="col-xs-6 col-lg-4">
-										<a class="selection-box">
+										<a class="selection-box match-height">
 											<img src="/img/room-config-herringbone.svg" alt="" class="img-responsive">
 											<p class="desc">Herringbone</p>
 										</a>
 									</div>
 									<div class="col-xs-6 col-lg-4">
-										<a class="selection-box">
+										<a class="selection-box match-height">
 											<img src="/img/room-config-lecture.svg" alt="" class="img-responsive">
 											<p class="desc">Lecture</p>
 										</a>
 									</div>
 									<div class="col-xs-6 col-lg-4">
-										<a class="selection-box">
+										<a class="selection-box match-height">
 											<img src="/img/room-config-hollow-square.svg" alt="" class="img-responsive">
 											<p class="desc">Hollow Square</p>
 										</a>
 									</div>
 									<div class="col-xs-6 col-lg-4">
-										<a class="selection-box">
+										<a class="selection-box match-height">
 											<img src="/img/room-config-u-shape.svg" alt="" class="img-responsive">
 											<p class="desc">U-Shape</p>
 										</a>
 									</div>
 									<div class="col-xs-6 col-lg-4">
-										<a class="selection-box">
+										<a class="selection-box match-height">
 											<img src="/img/room-config-workshop.svg" alt="" class="img-responsive">
 											<p class="desc">Workshop</p>
 										</a>
 									</div>
 									<div class="col-xs-6 col-lg-4">
-										<a class="selection-box">
+										<a class="selection-box match-height">
 											<img src="/img/room-config-banquet.svg" alt="" class="img-responsive">
 											<p class="desc">Banquet</p>
 										</a>
 									</div>
 									<div class="col-xs-6 col-lg-4">
-										<a class="selection-box">
+										<a class="selection-box match-height">
 											<img src="/img/room-config-circle.svg" alt="" class="img-responsive">
 											<p class="desc">Circle</p>
 										</a>
 									</div>
 									<div class="col-xs-6 col-lg-4">
-										<a class="selection-box">
+										<a class="selection-box match-height">
 											<img src="/img/room-config-half-circle.svg" alt="" class="img-responsive">
 											<p class="desc">Half Circle</p>
 										</a>
@@ -142,7 +142,7 @@
 					<div class="sidebar-nav">
 						<h2>Events & Meetings</h2>
 						<ul class="nav">
-							<li><a href="#" class="active">Event Planning Process</a></li>
+							<li><a href="#">Event Planning Process</a></li>
 							<li class="active"><a href="#">Meeting Spaces</a></li>
 							<li><a href="#">Meeting Room Rates</a></li>
 							<li><a href="#">Eligibility & Policies</a></li>
@@ -158,7 +158,7 @@
 
 				<div class="sidebar-widget">
 					<div class="request-meeting-room">
-						<img src="/img/icon-calendar.png" alt="calendar" class="icon">
+						<img src="/img/icon-calendar.svg" alt="calendar" class="icon">
 						<h4>Request a Meeting Room</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel massa faucibus.</p>
 						<a href="#" class="btn btn-success btn-block">Request</a>
@@ -178,7 +178,7 @@
 					<div class="plain-cta">
 						<img src="/img/icon-question.svg" alt="question" class="icon">
 						<h4 class="text-center">View some of our Most Frequently asked questions</h4>
-						<a href="#" class="text-center center-block">View FAQs ›</a>
+						<a href="#" class="text-center center-block standalone">View FAQs ›</a>
 					</div>
 				</div>
 
@@ -186,7 +186,7 @@
 					<div class="plain-cta">
 						<h4 class="text-center">For Event Planners</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel massa faucibus, blandit felis at, pharetra libero. Nunc tempor ullamcorper pretium.</p>
-						<a href="#" class="text-center center-block">Media Center ›</a>
+						<a href="#" class="text-center center-block standalone">Media Center ›</a>
 					</div>
 				</div>
 
