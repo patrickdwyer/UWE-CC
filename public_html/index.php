@@ -14,7 +14,7 @@
 				<div class="col-sm-6">
 					<div class="promo-box pyle">
 						<div class="upper">
-							<img src="/img/logo-pyle.png" alt="Pyle Center">
+							<img src="/img/logo-pyle.svg" alt="Pyle Center">
 							<h2 class="title">Pyle Center</h2>
 						</div>
 						<div class="lower match-height">
@@ -26,7 +26,7 @@
 				<div class="col-sm-6">
 					<div class="promo-box lowell">
 						<div class="upper">
-							<img src="/img/logo-lowell.png" alt="Lowell Center">
+							<img src="/img/logo-lowell.svg" alt="Lowell Center">
 							<h2 class="title">Lowell Center</h2>
 						</div>
 						<div class="lower match-height">

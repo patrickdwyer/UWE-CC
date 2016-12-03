@@ -113,7 +113,7 @@
 
 				<div class="sidebar-widget no-border hidden-xs">
 					<div class="location pyle">
-						<img src="/img/logo-pyle-color.png" alt="Pyle Center">
+						<img src="/img/logo-pyle-color.svg" alt="Pyle Center">
 						<h4>Pyle Center</h4>
 						<hr>
 						<p class="phone">

@@ -171,7 +171,7 @@
 
 				<div class="sidebar-widget no-border hidden-xs">
 					<div class="location lowell">
-						<img src="/img/logo-lowell-color.png" alt="Lowell Center">
+						<img src="/img/logo-lowell-color.svg" alt="Lowell Center">
 						<h4>Lowell Center</h4>
 						<hr>
 						<p class="phone">
