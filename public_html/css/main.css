@@ -1060,19 +1060,77 @@ section.news-alt .item {
   section.news-alt .item {
     padding: 40px 40px; } }
 
-.timeline .timeline-item {
-  padding: 0 40px;
+.event-planning .timeline-step {
+  padding: 0 40px 0 40px;
   background: #fff; }
-  .timeline .timeline-item .timeline-event {
-    padding-top: 40px;
+  .event-planning .timeline-step .timeline-event {
+    position: relative;
+    padding: 40px 0 20px 40px;
     border-top: 2px solid #d1d1d1; }
-    .timeline .timeline-item .timeline-event .timeframe {
+    @media (min-width: 992px) {
+      .event-planning .timeline-step .timeline-event {
+        padding-left: 0; } }
+    .event-planning .timeline-step .timeline-event:before {
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      content: " ";
+      width: 2px;
+      background-color: #1c99ad;
+      left: 0;
+      top: 50px; }
+    .event-planning .timeline-step .timeline-event .bubble {
+      position: absolute;
+      top: 45px;
+      left: 0;
+      width: 25px;
+      height: 25px;
+      margin-left: -12px;
+      background-color: #1c99ad;
+      z-index: 100;
+      border-top-right-radius: 50%;
+      border-top-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%; }
+    .event-planning .timeline-step .timeline-event:nth-child(2):before,
+    .event-planning .timeline-step .timeline-event:nth-child(2) .bubble {
+      background-color: #ee9f38; }
+    .event-planning .timeline-step .timeline-event:nth-child(3):before,
+    .event-planning .timeline-step .timeline-event:nth-child(3) .bubble {
+      background-color: #ee7838; }
+    .event-planning .timeline-step .timeline-event:nth-child(4):before,
+    .event-planning .timeline-step .timeline-event:nth-child(4) .bubble {
+      background-color: #ee4637; }
+    .event-planning .timeline-step .timeline-event:nth-child(5):before,
+    .event-planning .timeline-step .timeline-event:nth-child(5) .bubble {
+      background-color: #3b3b3b; }
+    @media (min-width: 992px) {
+      .event-planning .timeline-step .timeline-event:before {
+        left: 42%; }
+      .event-planning .timeline-step .timeline-event .bubble {
+        left: 42%; } }
+    .event-planning .timeline-step .timeline-event .timeframe {
       margin-bottom: 20px;
       font-size: 36px; }
-      .timeline .timeline-item .timeline-event .timeframe span {
+      .event-planning .timeline-step .timeline-event .timeframe span {
         display: block;
         margin-top: 10px;
         font-size: 20px; }
+    .event-planning .timeline-step .timeline-event .todolist {
+      list-style: none;
+      line-height: 1.5; }
+      .event-planning .timeline-step .timeline-event .todolist li {
+        counter-increment: step-counter;
+        position: relative;
+        margin-bottom: 20px;
+        padding-left: 30px; }
+        .event-planning .timeline-step .timeline-event .todolist li::before {
+          content: counter(step-counter);
+          position: absolute;
+          left: 0;
+          font-family: "brandon-grotesque", "Arial Black", Helvetica, sans-serif;
+          font-size: 22px;
+          color: #d1d1d1; }
 
 section.find-room .view-rooms {
   display: block;
@@ -1225,8 +1283,10 @@ section.map-weather .map-container iframe {
   min-height: 250px; }
 
 .catering-menu .menu-items {
-  padding: 0 20px 20px 20px;
-  background: #fff; }
+  margin: 0  20px;
+  padding: 20px 0;
+  background: #fff;
+  border-top: 2px solid #d1d1d1; }
   .catering-menu .menu-items p {
     margin-bottom: 10px; }
   .catering-menu .menu-items .price {
@@ -1234,7 +1294,38 @@ section.map-weather .map-container iframe {
 
 @media (min-width: 768px) {
   .catering-menu .menu-items {
-    padding: 0 40px 40px 40px; } }
+    margin: 0  40px;
+    padding: 40px 0; }
+    .catering-menu .menu-items hr {
+      margin-top: 40px;
+      margin-bottom: 40px; } }
+
+.panel {
+  border: none;
+  box-shadow: none; }
+  .panel.panel-default > .panel-heading {
+    padding: 20px 20px;
+    background-color: #e0e0e0;
+    color: #3b3b3b; }
+    .panel.panel-default > .panel-heading.active {
+      background: #fff; }
+    .panel.panel-default > .panel-heading .panel-title {
+      font-size: 22px; }
+      .panel.panel-default > .panel-heading .panel-title a {
+        display: block; }
+        .panel.panel-default > .panel-heading .panel-title a:focus, .panel.panel-default > .panel-heading .panel-title a:hover {
+          text-decoration: none; }
+        .panel.panel-default > .panel-heading .panel-title a:focus {
+          color: #3b3b3b; }
+      .panel.panel-default > .panel-heading .panel-title .hideview {
+        float: right;
+        font-family: "omnes-pro", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #1c99ad;
+        text-transform: none; }
+  @media (min-width: 768px) {
+    .panel.panel-default > .panel-heading {
+      padding: 20px 40px; } }
 
 .vbrick-photo {
   position: relative; }
@@ -1256,31 +1347,6 @@ section.map-weather .map-container iframe {
   width: 100%;
   height: auto;
   border: 0; }
-
-.panel {
-  border: none;
-  box-shadow: none; }
-  .panel.panel-default > .panel-heading {
-    padding: 20px 20px;
-    background-color: #fff;
-    color: #3b3b3b; }
-    .panel.panel-default > .panel-heading .panel-title {
-      font-size: 22px; }
-      .panel.panel-default > .panel-heading .panel-title a {
-        display: block; }
-      .panel.panel-default > .panel-heading .panel-title span {
-        float: right;
-        font-family: "omnes-pro", Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        text-transform: none; }
-      .panel.panel-default > .panel-heading .panel-title .fa {
-        transition: all 0.3s ease-out; }
-        .panel.panel-default > .panel-heading .panel-title .fa.upside-down {
-          transform: rotateZ(45deg);
-          transition: all 0.3s ease-out; }
-  @media (min-width: 768px) {
-    .panel.panel-default > .panel-heading {
-      padding: 20px 40px; } }
 
 /* -----------------------------------------
 	Main Content - Secondary Color Specific
